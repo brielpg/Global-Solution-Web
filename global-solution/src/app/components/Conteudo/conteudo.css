@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    /* Add other styles for the container */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    /* Add other styles for the title */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    /* Add other styles for the content area */
+  }
+  
+  .image {
+    max-width: 300px; /* Adjust as needed */
+    margin-right: 20px; /* Add spacing between image and text */
+    /* Add other styles for the image */
+  }
+  
+  .text {
+    font-size: 16px;
+    /* Add other styles for the text */
+  }
