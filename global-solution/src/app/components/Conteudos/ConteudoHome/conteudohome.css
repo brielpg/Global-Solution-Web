@@ -1,0 +1,54 @@
+.conteudo-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.conteudos-cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.conteudo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+}
+
+.conteudo-box>h1,
+.conteudo-box>p{
+    width: 60%;
+    text-align: start;
+}
+
+.conteudo-box>h1{font-size: 2.8vw;}
+.conteudo-box>p{font-size: 1.15vw;}
+
+.imagem-home{
+    width: 50%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+#imagem1{background-image: url('../../../../../imagens/baleiapulando.jpg');}
+#imagem2{background-image: url('../../../../../imagens/beachoecean.jpg');}
+#imagem3{background-image: url('../../../../../imagens/hands-water-wide.jpg');}
+#imagem4{background-image: url('../../../../../imagens/peopleinocean.jpg');}
+
+
+.cor-fundo1{
+    background-color: #d9f1f7;
+    color: #082F49;}
+
+.cor-fundo2{
+    color: white;
+    background-color: #082F49;}

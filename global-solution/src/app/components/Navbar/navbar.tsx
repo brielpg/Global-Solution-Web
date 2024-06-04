@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import "./navbar.css";
 
 const Navbar: React.FC = () => {
@@ -6,10 +7,11 @@ const Navbar: React.FC = () => {
     <nav>
       <div className="logo">Blue World</div>
       <ul className="menu">
-        <li>Home</li>
-        <li>Quiz</li>
-        <li>Login</li>
-        <li>Cadastro</li>
+        <Link href="/home" className='links'><li>Home</li></Link>
+        <Link href="/clearocean" className='links'><li>Clear Ocean</li></Link>
+        <Link href="/denunciar" className='links'><li>Denunciar</li></Link>
+        <Link href="/login" className='links'><li>Login</li></Link>
+        <Link href="/cadastro" className='links'><li>Cadastro</li></Link>
       </ul>
     </nav>
   );

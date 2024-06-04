@@ -1,0 +1,50 @@
+.bg-home{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-home>p{
+    margin: 150px 0px 150px 0px;
+    width: 90%;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.div-btn-htoco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0px 75px 0px;
+}
+
+.btn-home-to-clearocean{
+    font-style: none;
+    border-radius: 6px;
+    font-size: 1.1vw;
+    text-align: center;
+    padding: 26px 20px;
+    background-color: #0C4A6E;
+    color: white;
+    transition: 0.4s;
+}
+
+.btn-home-to-clearocean:hover{
+    scale: 110%;
+    background-color: #0a3e5c;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

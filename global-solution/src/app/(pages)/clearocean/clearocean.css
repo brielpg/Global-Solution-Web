@@ -1,0 +1,33 @@
+body{
+    background-color: #91CFDD;
+}
+
+#conteudo-clearocean{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    gap: 80px;
+}
+
+.div-denunciar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-denunciar{
+    font-style: none;
+    border-radius: 6px;
+    font-size: 1.1vw;
+    text-align: center;
+    padding: 26px 20px;
+    background-color: #0C4A6E;
+    color: white;
+    transition: 0.4s;
+}
+
+.botao-denunciar:hover{
+    scale: 110%;
+    background-color: #0a3e5c;
+}
