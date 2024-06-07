@@ -1,0 +1,107 @@
+.bg-denunciar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../../../imagens/UNUSUAL-The-Colour-Of-The-Ocean-Will-Change-In-Eighty-Years-Due-To-Climate-ChangeDark.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.denuncia-body{
+    display: flex;
+    width: 100%;
+    min-height: 71.77vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.denuncia-container{
+    margin: 50px 0px;
+    display: flex;
+    width: 50%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(57, 148, 201, 0.55);
+    padding: 50px 0px;
+    border-radius: 20px;
+}
+
+.denuncia-container>h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3.5vw;
+    margin-bottom: 6%;
+}
+
+.denuncia-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+}
+
+.two-inputsD{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.denuncia-form-container>button{
+    outline: none;
+    border: none;
+
+    background-color: #0C4A6E;
+    color: white;
+    border-radius: 6px;
+    padding: 14px 38px;
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 1.3em;
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.denuncia-form-container>button:hover{
+    color: #0C4A6E;
+    background-color: white;
+}
+
+.input-denuncia{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: center;
+    width: 100%;
+}
+
+.input-denuncia>input{
+    outline: none;
+    border: none;
+
+    background-color: white;
+    color: #888888;
+    border-radius: 6px;
+    padding: 10px 0px;
+
+    font-weight:400;
+    font-size: 1.3em;
+    width: 80%;
+    height: 40px;
+}
+
+.input-denuncia>label{
+    width: 80%;
+    font-size: 1.4vw;
+    font-weight: 500;
+    text-align: start;
+    color: white;
+}
