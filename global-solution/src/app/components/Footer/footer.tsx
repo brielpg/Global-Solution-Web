@@ -5,9 +5,11 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <p>&copy; Blue World 2024</p>
-      <div className="social">
-        <p>Conheça nossas redes</p>
-        {/* Adicionar icones das redes sociais */}
+      <div className="integrantes">
+        <p><strong>1TDSPA</strong></p>
+        <p>Gabriel Pescarolli Galiza - RM554012</p>
+        <p>Gabriel Fossatti Beltran- RM552798</p>
+        <p>Carlos Eduardo Ariza Sartorio - RM553461</p>
       </div>
     </footer>
   );
